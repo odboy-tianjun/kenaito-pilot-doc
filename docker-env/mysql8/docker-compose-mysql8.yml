@@ -18,4 +18,4 @@ services:
     privileged: true
     user: root
     ports: # 映射端口
-      - "23306:3306"
+      - "3306:3306"

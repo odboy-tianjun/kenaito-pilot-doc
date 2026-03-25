@@ -11,4 +11,4 @@ services:
       - "./redis/data:/data"
       - "./redis/config/redis.conf:/etc/redis/redis.conf"  # `redis.conf`文件内容`http://download.redis.io/redis-stable/redis.conf`
     ports: # 映射端口
-      - "26379:6379"
+      - "6379:6379"
