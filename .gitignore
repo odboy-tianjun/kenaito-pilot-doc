@@ -7,3 +7,6 @@
 */*.iml
 /.gradle/
 /application.pid
+/docker-env/mysql8/mysql/data
+/docker-env/mysql8/mysql/mysql-files
+/docker-env/redis7/redis/data
