@@ -348,7 +348,7 @@ CREATE TABLE `gitlab_site_config` (
 -- Records of gitlab_site_config
 -- ----------------------------
 BEGIN;
-INSERT INTO `gitlab_site_config` (`id`, `create_by`, `create_time`, `update_by`, `update_time`, `name`, `endpoint`, `token`, `default_group_name`, `default_group_id`, `status`, `master`, `error_message`) VALUES (1, 'admin', '2026-03-27 15:14:44', 'admin', '2026-03-27 15:14:49', '公用测试环境', 'http://219.151.187.115:21008', 'vC2mULhUqAJFJ3bTEPFG', 'root', 1, 0, 1, '401 Unauthorized');
+INSERT INTO `gitlab_site_config` (`id`, `create_by`, `create_time`, `update_by`, `update_time`, `name`, `endpoint`, `token`, `default_group_name`, `default_group_id`, `status`, `master`, `error_message`) VALUES (1, 'admin', '2026-03-27 15:14:44', 'admin', '2026-03-27 15:14:49', '公用测试环境', 'http://219.151.187.115:21008', 'xxxxxxx', 'root', 1, 0, 1, '401 Unauthorized');
 COMMIT;
 
 -- ----------------------------
